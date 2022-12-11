@@ -12,7 +12,7 @@ Two instances of the game are expected to be exectued and connect to the same Ph
 
 ## Known issues
 
-The rotation interpolation is not perfect. Sometimes (can be seen in the gif) the cubes jumps between two different rotation positions, almost as if it was an ambiguous rotation. Surely I messed up some quaternion stuff.
+The rotation interpolation is not perfect. Sometimes (can be seen in the gif) the red cube jumps between two different rotation positions, almost as if it receves an ambiguous rotation. Surely I messed up some quaternion stuff.
 
 ## Links
 
