@@ -1,12 +1,12 @@
 # Ignore everything
-*
+/*
 
 # But not these files...
 !.gitignore
 !README.md
-!/Assets/**
-!/Packages/**
-!/ProjectSettings/**
+!Assets
+!Packages
+!ProjectSettings
 
 
 
