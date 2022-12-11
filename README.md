@@ -8,7 +8,7 @@ A Network project. The projets uses Unity and Photon for the sync of a complex s
 
 ## How does it work?
  
-Two instances of the game are expected to connect to the same Photon server. The first instance to be executed and to connect to the server becomes the master client. The master client creates a room on the photon server and sends position and rotation of each (moving) cube to the server. Any other instance of the game will become a "hearing" client, that is, it will be able to receve the position and rotation information of the cubes and place them accordingly. To achieve realtime sync of so many objects, compression is applied, and smoothing/interpolation on the client side is performed.
+Two instances of the game are expected to be exectued and connect to the same Photon server. The first instance to connect becomes the master client. The master client creates a room on the server and streams position and rotation of each (moving) cube to the server. The other instance of the game, upon connection to the server, will become a "hearing" client, that is, it will be able to receve the position and rotation information of the cubes. To achieve realtime sync of so many objects, compression is applied, and smoothing/interpolation on the client side is performed.
 
 ## Links
 
