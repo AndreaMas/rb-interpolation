@@ -12,7 +12,7 @@ public class ClientSmoothMovement : MonoBehaviour
     [HideInInspector] public Vector3 targetPosition;
     [HideInInspector] public Quaternion targetRotation;
 
-    private float smoothAmount = 5f;
+    private float smoothAmount = 15f;
 
     void Start()
     {
