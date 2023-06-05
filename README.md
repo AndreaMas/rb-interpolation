@@ -17,3 +17,5 @@ The rotation interpolation is not perfect. Sometimes (can be seen in the gif) th
 ## Links
 
 Build on itch: https://aramas.itch.io/network-transform-sync-test
+
+Theory explained: https://gafferongames.com/post/snapshot_compression/
